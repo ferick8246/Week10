@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "test"
   },
   "author": "Erick Flores",
   "license": "MIT"
