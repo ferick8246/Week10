@@ -1,7 +1,8 @@
-const Employee = require('../lib/Employee');
-test('check that an employee is created', () => {
-    let employee = new Employee ("name", "id", "name@email");
-    expect(employee.getName()).toMatch("name");
+const Employee = require("../lib/Employee");
+
+test("Can instantiate Employee instance", () => {
+  const e = new Employee();
+  expect(typeof(e)).toBe("object");
 });
 
 
